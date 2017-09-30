@@ -15,3 +15,8 @@ def assign_rooms(attendees)
     room_assignments[room] = "Hello, #{attendee}! You'll be assigned to room #{room+1}!"}
     room_assignments
 end
+
+def print(name, attendees)
+  puts badge_maker(name)
+  puts assign_rooms(attendees)
+  
