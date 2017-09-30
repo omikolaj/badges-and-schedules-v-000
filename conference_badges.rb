@@ -19,4 +19,4 @@ end
 def print(name, attendees)
   puts badge_maker(name)
   puts assign_rooms(attendees)
-  
+end
