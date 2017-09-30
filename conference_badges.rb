@@ -18,9 +18,6 @@ end
 require 'pry'
 def printer(attendees)
   batch_badge_creator(attendees).each do { |conference_badges|
-    puts conference_badges
-  }
-puts assign_rooms(attendees).each do { |room|
-    room
-  }
+    puts conference_badges}
+puts assign_rooms(attendees).each do { |room| puts room}
 end
