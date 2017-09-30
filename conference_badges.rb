@@ -17,7 +17,7 @@ def assign_rooms(attendees)
 end
 require 'pry'
 def printer(attendees)
-  batch_badge_creator(attendees)
-  assign_rooms(attendees)
-  binding.pry
+  puts batch_badge_creator(attendees)
+   puts assign_rooms(attendees)
+  
 end
