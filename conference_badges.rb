@@ -17,6 +17,6 @@ def assign_rooms(attendees)
 end
 
 def badges_and_room_assignments(name, attendees)
-  puts badge_maker(name)
-  puts assign_rooms(attendees)
+  print badge_maker(name)
+  print assign_rooms(attendees)
 end
