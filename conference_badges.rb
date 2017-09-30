@@ -16,7 +16,7 @@ def assign_rooms(attendees)
     room_assignments
 end
 
-def print(name, attendees)
+def badges_and_room_assignments(name, attendees)
   puts badge_maker(name)
   puts assign_rooms(attendees)
 end
