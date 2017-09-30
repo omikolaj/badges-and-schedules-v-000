@@ -15,8 +15,9 @@ def assign_rooms(attendees)
     room_assignments[room] = "Hello, #{attendee}! You'll be assigned to room #{room+1}!"}
     room_assignments
 end
-
+require 'pry'
 def printer(attendees)
   batch_badge_creator(attendees)
   assign_rooms(attendees)
+  binding.pry
 end
